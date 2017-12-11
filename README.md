@@ -1,13 +1,17 @@
 Weird fork from https://github.com/doxygen/doxygen
 Master represents version 1.8.8 with a flex version check patch
+This may not compile on your machine
 
 # Compile
+```
 ./configure --prefix /opt/doxygen
 make -j
 make install
-
+```
 # Usage
+```
 /opt/doxygen/bin/doxygen <doxygen_config_file>
+```
 
 Doxygen
 ===============
